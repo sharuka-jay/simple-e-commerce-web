@@ -1,0 +1,47 @@
+body{
+    background: skyblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_wrapper{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+#header{
+    width: 1000px;
+    height: 120px;
+    background: url(../images/Admin\ area.jpg);
+    border-bottom: 5px groove orange;
+}
+
+#left{
+    width: 795px;
+    height: 600px;
+    background-image: url(../images/welcome\ to\ admin\ area.jpg);
+    float: left;
+}
+#right{
+    width: 200px;
+    height: 600px;
+    float: right;
+    border-left:5px groove orange ;
+    background: #2b70e5;
+}
+
+#right a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    padding: 6px;
+    margin: 6px;
+    display: block;
+    border-bottom: 1px groove orange;
+}
+#right a:hover{
+    color: orange;
+    font-weight: bolder;
+    text-decoration: underline;
+}

@@ -1,0 +1,126 @@
+body{
+    background: skyblue;
+    font-family: 'Poppins', sans-serif;
+}
+.main_wrapper{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background: black;
+}
+.header_wrapper{
+    width: 1000px;
+    height: 110px;
+    margin: auto;
+}
+.content_wrapper{
+    width: 1000px;
+    margin: auto;
+    background: pink;
+}
+
+#content_area{
+    width: 800px;
+    float: left;
+    background: pink;
+}
+#sidebar{
+    width: 200px;
+    background: black;
+    float: left;
+}
+#sidebar_title{
+    background: white;
+    color: black;
+    font-size: 22px;
+    padding: 10px;
+}
+#cats{
+    text-align: center;
+}
+
+#cats li{
+    list-style: none;
+    margin: 5px;
+}
+#cats a{
+    color: white;
+    padding: 8px;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+#cats a:hover{
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#footer{
+    width: 1000px;
+    height: 100px;
+    background: gray;
+    clear: both;
+}
+.menu_bar{
+    width: 1000px;
+    height: 50px;
+    background: gray;
+    color: white;
+}
+#menu{
+    padding: 0%;
+    margin: 0%;
+    line-height: 40px;
+}
+
+#menu li{
+    list-style: none;
+    display: inline;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 8px;
+    font-size: 18px;
+}
+#menu a:hover{
+    color: orange;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#pic3{
+    float: right;
+}
+#pic2{
+    margin-left: 20px;
+}
+
+#form{
+    float: right;
+    padding-right: 8px;
+    line-height: 50px;
+}
+
+#product_box{
+    width: 780px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+#single_product{
+    float: left;
+    padding: 10px;
+    margin-left: 30px;
+}
+#single_product img{
+    border: 2px solid black;
+}
+
+#shopping_cart{
+    width: 800px;
+    height: 50px;
+    background: black;
+    color: white;
+}
